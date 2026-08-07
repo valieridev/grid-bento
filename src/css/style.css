@@ -1,0 +1,254 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+.containerPai{
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 230px 200px 200px;
+    grid-template-areas:
+        "primeiraColuna  estrela      estrela     grafico"
+        "primeiraColuna  socialMedia  calendario  grafico"
+        "primeiraColuna  personagens  followers   followers";
+    
+    gap: 20px;
+    padding: 30px 15px;
+    background-color: rgb(241, 241, 241);
+}
+
+
+
+.containerFilhos.containerPrimeiraColuna { 
+    grid-area: primeiraColuna;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.containerFilhos.estrela { grid-area: estrela; }
+.containerFilhos.grafico { grid-area: grafico; }
+.containerFilhos.socialMedia { grid-area: socialMedia; }
+.containerFilhos.calendario { grid-area: calendario; }
+.containerFilhos.personagens { grid-area: personagens; }
+.containerFilhos.followers { grid-area: followers; }
+/*primeira coluna*/
+.primeira-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 18px;
+    flex: 1;
+    border-radius: 12px;
+    gap: 22px;
+}
+.primeira-div img{
+    width: 11vw;
+    height: 11vh;
+}
+.primeira-div h1{
+    color: hsl(0, 0%, 7%);
+    font-size: clamp(20px, 3vw, 32px);
+    margin-top: 8px;
+    line-height: 0.9;
+}
+.primeira-div a{
+    color: hsl(256, 67%, 59%);
+    text-decoration: none;
+}
+
+.segunda-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex: 1;
+    border-radius: 12px;
+    gap: 6vh;
+    
+}
+.segunda-div h1{
+    color: hsl(0, 0%, 7%);
+    font-size: clamp(20px, 3vw, 35px);
+    margin-top: 10px;
+    line-height: 0.9;
+    width: 80%;
+    
+}
+.segunda-div img{
+    width: 13vw;
+    height: 25vh;
+}
+
+
+.primeira-div { background-color: hsl(31, 66%, 93%); }
+.segunda-div{ background-color: hsl(39, 100%, 71%); }
+.estrela { background-color: hsl(256, 67%, 59%); }
+.grafico { background-color: hsl(254, 88%, 90%); }
+.socialMedia { background-color: hsl(0, 0%, 100%); }
+.calendario { background-color: hsl(39, 100%, 71%); }
+.personagens { background-color: hsl(0, 0%, 100%); }
+.followers { background-color: hsl(256, 67%, 59%); }
+
+/*div da estrela de avvaliação*/
+
+.estrela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 12px;
+    color: hsl(0, 0%, 100%);
+    
+}
+.estrela h1{
+    font-size: clamp(40px,7vw,50px);
+    text-align: center;
+    line-height: 0.9;
+}
+.estrela a{
+    text-decoration: none;
+    color: hsl(39, 100%, 71%);
+}
+.estrela img{
+    max-width: 12vw;
+    max-height: 4vh;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.estrela h3{
+    font-size: clamp(12px,3vw,16px);
+    letter-spacing: 1px;
+    color: hsl(254, 88%, 90%);
+}
+
+/*div de social media com imagem do instagram e twitter*/
+
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 12px;
+    border-radius: 12px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 10px 0px 15px 20px;
+}
+.socialMedia img{
+    width: 18vw;
+    height: 8vh;
+    transform: translateX(20px);
+    border-radius: 20px;
+}
+.socialMedia h2{
+    font-weight: 500;
+    font-size: clamp(20px,3vw,30px);
+    line-height: 0.9;
+    width: 95%;
+}
+
+
+/* div com calendario*/
+
+.calendario{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 15px 20px;
+    text-align: start;
+    gap: 12px;
+    border-radius: 12px;
+    overflow-y: hidden;
+}
+.calendario h2{
+    font-weight: 500;
+    font-size: clamp(20px,3vw,28px);
+    line-height: 0.9;
+    width: 95%;
+    text-align: start;
+}
+.calendario img{
+    width: 14vw;
+    height: 18vh;
+}
+
+/*div personagens*/ 
+
+.personagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px 10px 15px;
+    text-align: start;
+    gap: 2px;
+    border-radius: 12px;
+    
+}
+.personagens img{
+    width: 12vw;
+    height: 8vh;
+}
+.personagens h1{
+    font-size: clamp(40px,7vw,50px);
+}
+.personagens h3{
+    color: rgba(10, 10, 10, 0.87);
+    font-size: clamp(12px,3vw,16px);
+    margin-bottom: 20px;
+}
+
+/*div followers*/
+
+.followers{
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    gap: 20px;
+    border-radius: 12px;
+}
+.followers img{
+    width: 22vw;
+    height: 22vh;
+}
+.followers h2{
+    font-size: clamp(30px,7vw,35px);
+    color: hsl(0, 0%, 100%);
+    text-align: start;
+    line-height: 0.95;
+}
+
+/*grafico*/
+
+.grafico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0px 50px 20px; 
+    text-align: start;
+    gap: 15px;
+    border-radius: 12px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+.grafico img{
+    width: 16vw;
+    height: 34vh;
+    transform: translateX(50px);
+}
+.grafico h2{
+    font-weight: 500;
+    font-size: clamp(20px,3vw,30px);
+    line-height: 0.9;
+}
+.grafico p{
+    font-size: clamp(12px,3vw,16px);
+    color: rgba(10, 10, 10, 0.87);
+    width: 85%;
+}

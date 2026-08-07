@@ -1,0 +1,145 @@
+
+/*primeira coluna*/
+.primeira-div{
+    transition: all 0.6s ease-in-out;
+}
+.primeira-div *{
+    transition: all 0.8s ease-in-out;
+}
+.primeira-div:hover, .primeira-div:hover img{
+    transform: translateY(10px);
+}
+.primeira-div:hover, .primeira-div:hover h1{
+    transform: translateY(-10px);
+}
+.segunda-div{
+    transition: all 0.8s ease-in-out;
+}
+.segunda-div *{
+    transition: all 0.8s ease-in-out;
+}
+.segunda-div:hover{
+    transform: translateX(-25px);
+}
+.segunda-div:hover h1{
+    transform: translateY(-8px);
+}
+.segunda-div:hover img{
+    transform: translateY(-8px);
+}
+
+
+/*segunda coluna*/
+
+.estrela{
+    transition: all 0.8s ease-in-out;
+}
+.estrela *{
+    transition: all 0.8s ease-in-out;
+}
+
+.estrela:hover, .estrela:hover img{
+    transform: translateY(-10px);
+}
+.estrela:hover h1{
+   transform: translateY(-5px);
+}
+
+.socialMedia{
+    transition: all 1s ease-in-out;
+}
+.socialMedia *{
+    transition: all 1s ease-in-out;
+}
+
+.socialMedia:hover img{
+    scale: 0.90;
+    transform: translateX(-30px);
+}
+.socialMedia:hover h2{
+    scale: 0.90;
+    width: 100%;
+}
+
+
+
+
+.calendario{
+    transition: all 1s ease-in-out;
+}
+.calendario *{
+    transition: all 1s ease-in-out;
+}
+
+.calendario:hover h2{
+    scale: 0.95;
+    transform: translateY(-10px);
+    
+
+}
+.calendario:hover img{
+    transform: translateY(-15px);
+}
+
+
+.personagens{
+    transition: all 0.8s ease-in-out;
+}
+.personagens * {
+    transition: all 0.8s ease-in-out;
+}
+.personagens:hover{
+    transform: translateY(15px);
+}
+.personagens:hover img{
+    transform: translateX(15px);
+}
+.personagens:hover h1{
+    transform: translateX(15px);
+}
+.personagens:hover h3{
+    transform: translateX(15px);
+}
+
+/*ultimas colunas*/
+
+
+.followers{
+    transition: all 0.8s ease-in-out;
+}
+.followers h2 {
+    transition: all 0.8s ease-in-out;
+}
+.followers img{
+    transition: all 1s ease-in-out;
+}
+
+.followers:hover img{
+    transform: rotate(360deg) translateX(60px);
+}
+.followers:hover h2{
+    transform: translateX(50px);
+    scale: 0.95;
+}
+
+.grafico{
+    transition: all 0.8s ease-in-out;
+}
+
+.grafico *{
+    transition: all 0.8s ease-in-out;
+}
+
+.grafico:hover img{
+    transform: translateX(-14px);
+    scale: 0.90;
+}
+
+.grafico:hover p{
+    scale: 1.05;
+    transform: translateX(15px);
+}
+.grafico:hover h2{
+    scale: 0.95;
+    transform: translateX(15px);
+}
