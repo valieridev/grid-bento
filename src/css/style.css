@@ -18,7 +18,21 @@ body{
     background-color: rgb(241, 241, 241);
 }
 
+.containerFilhos.estrela { grid-area: estrela; }
+.containerFilhos.grafico { grid-area: grafico; }
+.containerFilhos.socialMedia { grid-area: socialMedia; }
+.containerFilhos.calendario { grid-area: calendario; }
+.containerFilhos.personagens { grid-area: personagens; }
+.containerFilhos.followers { grid-area: followers; }
 
+.primeira-div { background-color: hsl(31, 66%, 93%); }
+.segunda-div{ background-color: hsl(39, 100%, 71%); }
+.estrela { background-color: hsl(256, 67%, 59%); }
+.grafico { background-color: hsl(254, 88%, 90%); }
+.socialMedia { background-color: hsl(0, 0%, 100%); }
+.calendario { background-color: hsl(39, 100%, 71%); }
+.personagens { background-color: hsl(0, 0%, 100%); }
+.followers { background-color: hsl(256, 67%, 59%); }
 
 .containerFilhos.containerPrimeiraColuna { 
     grid-area: primeiraColuna;
@@ -29,12 +43,6 @@ body{
     flex-direction: column;
     gap: 20px;
 }
-.containerFilhos.estrela { grid-area: estrela; }
-.containerFilhos.grafico { grid-area: grafico; }
-.containerFilhos.socialMedia { grid-area: socialMedia; }
-.containerFilhos.calendario { grid-area: calendario; }
-.containerFilhos.personagens { grid-area: personagens; }
-.containerFilhos.followers { grid-area: followers; }
 /*primeira coluna*/
 .primeira-div {
     display: flex;
@@ -86,14 +94,6 @@ body{
 }
 
 
-.primeira-div { background-color: hsl(31, 66%, 93%); }
-.segunda-div{ background-color: hsl(39, 100%, 71%); }
-.estrela { background-color: hsl(256, 67%, 59%); }
-.grafico { background-color: hsl(254, 88%, 90%); }
-.socialMedia { background-color: hsl(0, 0%, 100%); }
-.calendario { background-color: hsl(39, 100%, 71%); }
-.personagens { background-color: hsl(0, 0%, 100%); }
-.followers { background-color: hsl(256, 67%, 59%); }
 
 /*div da estrela de avvaliação*/
 

@@ -1,0 +1,170 @@
+@media (max-width: 375px){
+    .containerPai{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        max-width: none;
+        grid-template-areas: 
+        "estrela"
+        "socialMedia"
+        "calendario"
+        "grafico"
+        "followers"
+        "personagens"
+        "primeiraColuna"
+        ;
+    }
+
+    .estrela{
+        padding: 30px 30px;
+        gap: 10px;
+    }
+    .estrela h1{
+        font-size: 50px;
+    }
+    .estrela h3{
+        font-size: 15px;
+    }
+    .estrela img{
+        max-width: 150px;
+        max-height: 80px;
+    }
+
+
+    .socialMedia {
+        gap: 30px;
+        padding: 20px 20px;
+    }
+    .socialMedia img{
+        width: 350px;
+        height: 70px;
+        transform: translateX(0px);
+    }
+    .socialMedia h2{
+        font-size: 35px;
+    }
+
+    
+    .calendario img{
+        width: 250px;
+        height: 150px;
+        transform: translateX(0px) translateY(15px);
+        
+    }
+    .calendario:hover img{
+        transform:  translateY(15px);
+    }
+    .calendario h2{
+        font-size: 35px;
+    }
+    .calendario:hover h2{
+        transform: translateY(0px);
+        scale: 1;
+    }
+
+
+    .grafico{
+        align-items: center;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+    .grafico img{
+        width: 70vw;
+        height: 40vh;
+        transform: translateX(0px);
+    }
+    .grafico:hover img{
+        transform: translateX(0px) translateY(0px);
+    }
+    .grafico:hover h2{
+        transform: translateX(0px);
+        scale: 1;
+    }
+    .grafico:hover h2{
+        transform: translateX(0px);
+        scale: 1;
+    }
+    .grafico h2{
+        font-size: 25px;
+    }
+    .grafico p{
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+    .followers{
+        flex-direction: column;
+        padding: 20px 25px;
+    }
+    .followers h2{
+        font-size: 25px;
+        text-align: center;
+        width: 80%;
+    }
+    .followers img{
+        width: 60vw;
+        height: 30vh;
+    }
+    .followers:hover img{
+        transform: rotate(0deg) translateX(0px);
+    }
+    .followers:hover h2{
+    transform: translateX(0px);
+    scale: 1;
+    }
+
+    .personagens h1{
+        font-size: 55px;
+    }
+    .personagens h3{
+        font-size: 15px;
+    }
+    .personagens img{
+        width: 60vw;
+        height: 10vh;
+
+    }
+
+    /*divs que estao dentro do container separado*/
+    .primeira-div{
+        align-items: start;
+        
+    }
+    .primeira-div img{
+        width: 55vw;
+        height: 15vh;
+    }
+    .primeira-div h1{
+        font-size: 30px;
+    }
+
+    .primeira-div:hover, .primeira-div:hover img{
+    transform: translateY(0px);
+    }
+    .primeira-div:hover, .primeira-div:hover h1{
+        transform: translateY(0px);
+    }
+
+    .segunda-div{
+        align-items: start;
+        padding: 20px 20px;
+    }
+    .segunda-div img{
+        width: 60vw;
+        height: 30vh;
+    }
+    .segunda-div h1{
+        font-size: 30px;
+    }
+
+    .segunda-div:hover{
+    transform: translateX(0px);
+    }
+    .segunda-div:hover h1{
+        transform: translateY(0px);
+    }
+    .segunda-div:hover img{
+        transform: translateY(0px);
+    }
+}
+
